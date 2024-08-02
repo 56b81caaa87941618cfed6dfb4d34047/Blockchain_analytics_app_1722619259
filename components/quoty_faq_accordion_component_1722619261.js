@@ -6,7 +6,7 @@
 Vue.component("quoty_faq_accordion_component_1722619261", {
     template: `
     <section class="py-8 bg-white pl-4">
-        <h2 class="text-lg font-semibold mb-5">PLACEHOLDER_FAQ_TITLE</h2>
+        <h2 class="text-lg font-semibold mb-5">Frequently Asked Questions About Our Blockchain Analytics App</h2>
         <!-- Accordion -->
         <div class="space-y-3">
             <!-- Accordion item -->
@@ -35,10 +35,10 @@ Vue.component("quoty_faq_accordion_component_1722619261", {
     data() {
         return {
             terms: [
-                { title: "ACCORDION_QUESTION_1", description: "ACCORDION_ANSWER_1", expanded: false },
-                { title: "ACCORDION_QUESTION_2", description: "ACCORDION_ANSWER_2", expanded: false },
-                { title: "ACCORDION_QUESTION_3", description: "ACCORDION_ANSWER_3", expanded: false },
-                { title: "ACCORDION_QUESTION_4", description: "ACCORDION_ANSWER_4", expanded: false },
+                { title: "What is this app for?", description: "Our app provides advanced analytics for blockchain data. It allows you to track, monitor, and gain insights into new transactions, smart contracts, and activity across multiple blockchain networks.", expanded: false },
+                { title: "What blockchain platforms does it support?", description: "We currently support Ethereum, Bitcoin, Polygon, Solana, and Binance Smart Chain. More platforms will be added based on user demand.", expanded: false },
+                { title: "How does the analysis work?", description: "Our app ingests real-time blockchain data through node connections. It then processes and organizes this data using proprietary parsing algorithms to extract valuable information and insights.", expanded: false },
+                { title: "What kind of analytics can I get?", description: "You can analyze transaction flows, smart contract activity, token transfers, network usage metrics, and more. Customizable dashboards allow you to visualize the data based on your needs.", expanded: false },
             ],
         };
     },
