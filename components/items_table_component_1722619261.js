@@ -6,94 +6,94 @@
 
 Vue.component("items_table_component_1722619261", {
     template: `
-    <section id="items-table-component" class="py-8 bg-white">
-        <h2 id="costs-title" class="text-lg font-semibold mb-5">Blockchain Analytics Tools</h2>
-        <div id="costs-table-container" class="overflow-x-auto">
-            <table id="costs-table" class="table-auto w-full text-sm">
-                <thead id="costs-table-header" class="sr-only" id="costs-table-header">
+    <section id="items-table-component" class="py-8 bg-gradient-to-br from-purple-600 to-pink-500 backdrop-blur-lg bg-opacity-30 rounded-3xl shadow-2xl">
+        <h2 id="costs-title" class="text-2xl font-bold mb-5 text-white text-center">Blockchain Analytics Tools</h2>
+        <div id="costs-table-container" class="overflow-x-auto px-6">
+            <table id="costs-table" class="table-auto w-full text-sm bg-white bg-opacity-20 backdrop-filter backdrop-blur-md rounded-xl">
+                <thead id="costs-table-header" class="text-white">
                     <tr>
-                        <th id="description-header">Description</th>
-                        <th id="cost-header" scope="col">Cost</th>
+                        <th id="description-header" class="px-4 py-3 text-left">Description</th>
+                        <th id="cost-header" scope="col" class="px-4 py-3 text-right">Cost</th>
                     </tr>
                 </thead>
                 <tbody id="costs-table-body">
-                    <tr class="group odd:bg-gradient-to-tr from-slate-100 to-slate-50 dark:from-slate-800/80 dark:to-slate-900" id="costs-row-1" >
-                        <th scope="row" class="relative text-left font-normal px-4 py-5 first:rounded-l-lg last:rounded-r-lg after:w-px after:h-8 after:absolute after:right-0 after:top-1/2 after:-translate-y-1/2 group-hover:after:opacity-0 after:transition-opacity after:bg-slate-200 dark:after:bg-slate-800" id="costs-cell-description-1">
-                            <div class="font-semibold mb-0.5" id="costs-link-1">
-                                <a class="before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html" >
+                    <tr class="group hover:bg-white hover:bg-opacity-30 transition-all duration-300" id="costs-row-1">
+                        <th scope="row" class="text-left font-normal px-4 py-5 border-b border-purple-300 border-opacity-30" id="costs-cell-description-1">
+                            <div class="font-semibold mb-0.5 text-white" id="costs-link-1">
+                                <a class="hover:text-pink-300 transition-colors duration-300" href="details.html">
                                     On-Chain Data Explorer
                                 </a>
                             </div>
-                            <p class="after:bg-slate-200 dark:after:bg-slate-800" id="costs-description-1">Drill down into raw on-chain data across multiple blockchains</p>
+                            <p class="text-purple-200" id="costs-description-1">Drill down into raw on-chain data across multiple blockchains</p>
                         </th>
-                        <td class="relative font-semibold text-right px-4 py-5 first:rounded-l-lg last:rounded-r-lg w-[1%] after:content-['Details_->'] after:absolute after:inset-0 after:pr-4 after:flex after:items-center after:justify-end after:pointer-events-none after:rounded-lg after:font-medium after:tracking-normal after:whitespace-nowrap after:opacity-0 group-hover:after:opacity-100 after:transition after:bg-gradient-to-l after:from-white group-odd:after:from-slate-50 dark:after:from-slate-950 group-odd:dark:after:from-slate-900 after:to-50% after:text-blue-500" id="costs-cell-cost-1">
-                            <a class="group-hover:opacity-0 transition-opacity before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html" tabindex="-1">$99/month</a>
+                        <td class="font-semibold text-right px-4 py-5 border-b border-purple-300 border-opacity-30 text-white" id="costs-cell-cost-1">
+                            <a class="hover:text-pink-300 transition-colors duration-300" href="details.html">$99/month</a>
                         </td>
                     </tr>
-                    <tr class="group odd:bg-gradient-to-tr from-slate-100 to-slate-50 dark:from-slate-800/80 dark:to-slate-900" id="costs-row-1" >
-                        <th scope="row" class="relative text-left font-normal px-4 py-5 first:rounded-l-lg last:rounded-r-lg after:w-px after:h-8 after:absolute after:right-0 after:top-1/2 after:-translate-y-1/2 group-hover:after:opacity-0 after:transition-opacity after:bg-slate-200 dark:after:bg-slate-800" id="costs-cell-description-1">
-                            <div class="font-semibold mb-0.5" id="costs-link-1">
-                                <a class="before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html" >
+                    <tr class="group hover:bg-white hover:bg-opacity-30 transition-all duration-300" id="costs-row-2">
+                        <th scope="row" class="text-left font-normal px-4 py-5 border-b border-purple-300 border-opacity-30" id="costs-cell-description-2">
+                            <div class="font-semibold mb-0.5 text-white" id="costs-link-2">
+                                <a class="hover:text-pink-300 transition-colors duration-300" href="details.html">
                                     Smart Contract Auditor
                                 </a>
                             </div>
-                            <p class="after:bg-slate-200 dark:after:bg-slate-800" id="costs-description-1">Automated security analysis for Solidity smart contracts</p>
+                            <p class="text-purple-200" id="costs-description-2">Automated security analysis for Solidity smart contracts</p>
                         </th>
-                        <td class="relative font-semibold text-right px-4 py-5 first:rounded-l-lg last:rounded-r-lg w-[1%] after:content-['Details_->'] after:absolute after:inset-0 after:pr-4 after:flex after:items-center after:justify-end after:pointer-events-none after:rounded-lg after:font-medium after:tracking-normal after:whitespace-nowrap after:opacity-0 group-hover:after:opacity-100 after:transition after:bg-gradient-to-l after:from-white group-odd:after:from-slate-50 dark:after:from-slate-950 group-odd:dark:after:from-slate-900 after:to-50% after:text-blue-500" id="costs-cell-cost-1">
-                            <a class="group-hover:opacity-0 transition-opacity before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html" tabindex="-1">$149/month</a>
+                        <td class="font-semibold text-right px-4 py-5 border-b border-purple-300 border-opacity-30 text-white" id="costs-cell-cost-2">
+                            <a class="hover:text-pink-300 transition-colors duration-300" href="details.html">$149/month</a>
                         </td>
                     </tr>
-                    <tr class="group odd:bg-gradient-to-tr from-slate-100 to-slate-50 dark:from-slate-800/80 dark:to-slate-900" id="costs-row-3">
-                        <th scope="row" class="relative text-left font-normal px-4 py-5 first:rounded-l-lg last:rounded-r-lg" id="costs-cell-description-3">
-                            <div class="font-semibold mb-0.5"  id="costs-link-3">
-                                <a class="before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html">Token Metrics Dashboard</a>
+                    <tr class="group hover:bg-white hover:bg-opacity-30 transition-all duration-300" id="costs-row-3">
+                        <th scope="row" class="text-left font-normal px-4 py-5 border-b border-purple-300 border-opacity-30" id="costs-cell-description-3">
+                            <div class="font-semibold mb-0.5 text-white" id="costs-link-3">
+                                <a class="hover:text-pink-300 transition-colors duration-300" href="details.html">Token Metrics Dashboard</a>
                             </div>
-                            <p class="after:bg-slate-200 dark:after:bg-slate-800"  id="costs-description-3">In-depth analytics on token supplies, volumes and holders</p>
+                            <p class="text-purple-200" id="costs-description-3">In-depth analytics on token supplies, volumes and holders</p>
                         </th>
-                        <td class="relative font-semibold text-right px-4 py-5 first:rounded-l-lg last:rounded-r-lg w-[1%] after:content-['Details_->'] after:absolute after:inset-0 after:pr-4 after:flex after:items-center after:justify-end after:pointer-events-none after:rounded-lg after:font-medium after:tracking-normal after:whitespace-nowrap after:opacity-0 group-hover:after:opacity-100 after:transition after:bg-gradient-to-l after:from-white group-odd:after:from-slate-50 dark:after:from-slate-950 group-odd:dark:after:from-slate-900 after:to-50% after:text-blue-500" id="costs-cell-cost-3">
-                            <a class="group-hover:opacity-0 transition-opacity before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html" tabindex="-1">$49/month</a>
+                        <td class="font-semibold text-right px-4 py-5 border-b border-purple-300 border-opacity-30 text-white" id="costs-cell-cost-3">
+                            <a class="hover:text-pink-300 transition-colors duration-300" href="details.html">$49/month</a>
                         </td>
                     </tr>
-                    <tr class="group odd:bg-gradient-to-tr from-slate-100 to-slate-50 dark:from-slate-800/80 dark:to-slate-900" id="costs-row-4">
-                        <th scope="row" class="relative text-left font-normal px-4 py-5 first:rounded-l-lg last:rounded-r-lg" id="costs-cell-description-4">
-                            <div class="font-semibold mb-0.5"  id="costs-link-4">
-                                <a class="before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html">DEX Liquidity Tracker</a>
+                    <tr class="group hover:bg-white hover:bg-opacity-30 transition-all duration-300" id="costs-row-4">
+                        <th scope="row" class="text-left font-normal px-4 py-5 border-b border-purple-300 border-opacity-30" id="costs-cell-description-4">
+                            <div class="font-semibold mb-0.5 text-white" id="costs-link-4">
+                                <a class="hover:text-pink-300 transition-colors duration-300" href="details.html">DEX Liquidity Tracker</a>
                             </div>
-                            <p class="after:bg-slate-200 dark:after:bg-slate-800"  id="costs-description-4">Track liquidity provisioning and slippage across DEXes</p>
+                            <p class="text-purple-200" id="costs-description-4">Track liquidity provisioning and slippage across DEXes</p>
                         </th>
-                        <td class="relative font-semibold text-right px-4 py-5 first:rounded-l-lg last:rounded-r-lg w-[1%] after:content-['Details_->'] after:absolute after:inset-0 after:pr-4 after:flex after:items-center after:justify-end after:pointer-events-none after:rounded-lg after:font-medium after:tracking-normal after:whitespace-nowrap after:opacity-0 group-hover:after:opacity-100 after:transition after:bg-gradient-to-l after:from-white group-odd:after:from-slate-50 dark:after:from-slate-950 group-odd:dark:after:from-slate-900 after:to-50% after:text-blue-500" id="costs-cell-cost-4">
-                            <a class="group-hover:opacity-0 transition-opacity before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html" tabindex="-1">$79/month</a>
+                        <td class="font-semibold text-right px-4 py-5 border-b border-purple-300 border-opacity-30 text-white" id="costs-cell-cost-4">
+                            <a class="hover:text-pink-300 transition-colors duration-300" href="details.html">$79/month</a>
                         </td>
                     </tr>
-                    <tr class="group odd:bg-gradient-to-tr from-slate-100 to-slate-50 dark:from-slate-800/80 dark:to-slate-900" id="costs-row-5">
-                        <th scope="row" class="relative text-left font-normal px-4 py-5 first:rounded-l-lg last:rounded-r-lg" id="costs-cell-description-5">
-                            <div class="font-semibold mb-0.5"  id="costs-link-5">
-                                <a class="before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html">NFT Rarity Analyzer</a>
+                    <tr class="group hover:bg-white hover:bg-opacity-30 transition-all duration-300" id="costs-row-5">
+                        <th scope="row" class="text-left font-normal px-4 py-5 border-b border-purple-300 border-opacity-30" id="costs-cell-description-5">
+                            <div class="font-semibold mb-0.5 text-white" id="costs-link-5">
+                                <a class="hover:text-pink-300 transition-colors duration-300" href="details.html">NFT Rarity Analyzer</a>
                             </div>
-                            <p class="after:bg-slate-200 dark:after:bg-slate-800"  id="costs-description-5">Evaluate rarity and traits for any NFT collection</p>
+                            <p class="text-purple-200" id="costs-description-5">Evaluate rarity and traits for any NFT collection</p>
                         </th>
-                        <td class="relative font-semibold text-right px-4 py-5 first:rounded-l-lg last:rounded-r-lg w-[1%] after:content-['Details_->'] after:absolute after:inset-0 after:pr-4 after:flex after:items-center after:justify-end after:pointer-events-none after:rounded-lg after:font-medium after:tracking-normal after:whitespace-nowrap after:opacity-0 group-hover:after:opacity-100 after:transition after:bg-gradient-to-l after:from-white group-odd:after:from-slate-50 dark:after:from-slate-950 group-odd:dark:after:from-slate-900 after:to-50%" id="costs-cell-cost-5 after:text-blue-500">
-                            <a class="group-hover:opacity-0 transition-opacity before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html" tabindex="-1">$129/month</a>
+                        <td class="font-semibold text-right px-4 py-5 border-b border-purple-300 border-opacity-30 text-white" id="costs-cell-cost-5">
+                            <a class="hover:text-pink-300 transition-colors duration-300" href="details.html">$129/month</a>
                         </td>
                     </tr>
-                    <tr class="group odd:bg-gradient-to-tr from-slate-100 to-slate-50 dark:from-slate-800/80 dark:to-slate-900" id="costs-row-6">
-                        <th scope="row" class="relative text-left font-normal px-4 py-5 first:rounded-l-lg last:rounded-r-lg" id="costs-cell-description-6">
-                            <div class="font-semibold mb-0.5"  id="costs-link-6">
-                                <a class="before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html">Whale Transaction Monitor</a>
+                    <tr class="group hover:bg-white hover:bg-opacity-30 transition-all duration-300" id="costs-row-6">
+                        <th scope="row" class="text-left font-normal px-4 py-5" id="costs-cell-description-6">
+                            <div class="font-semibold mb-0.5 text-white" id="costs-link-6">
+                                <a class="hover:text-pink-300 transition-colors duration-300" href="details.html">Whale Transaction Monitor</a>
                             </div>
-                            <p class="after:bg-slate-200 dark:after:bg-slate-800"  id="costs-description-6">Get alerts on large transactions from blockchain whales</p>
+                            <p class="text-purple-200" id="costs-description-6">Get alerts on large transactions from blockchain whales</p>
                         </th>
-                        <td class="relative font-semibold text-right px-4 py-5 first:rounded-l-lg last:rounded-r-lg w-[1%] after:content-['Details_->'] after:absolute after:inset-0 after:pr-4 after:flex after:items-center after:justify-end after:pointer-events-none after:rounded-lg after:font-medium after:tracking-normal after:whitespace-nowrap after:opacity-0 group-hover:after:opacity-100 after:transition after:bg-gradient-to-l after:from-white group-odd:after:from-slate-50 dark:after:from-slate-950 group-odd:dark:after:from-slate-900 after:to-50%" id="costs-cell-cost-6 after:text-blue-500">
-                            <a class="group-hover:opacity-0 transition-opacity before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html" tabindex="-1">$199/month</a>
+                        <td class="font-semibold text-right px-4 py-5 text-white" id="costs-cell-cost-6">
+                            <a class="hover:text-pink-300 transition-colors duration-300" href="details.html">$199/month</a>
                         </td>
                     </tr>
                 </tbody>
                 <tfoot id="costs-table-footer">
                     <tr>
-                        <th id="total-description" scope="row" class="relative text-left font-normal px-4 py-5">
-                            <p id="total-description-text" class="italic text-slate-500">TOT in USD dollar</p>
+                        <th id="total-description" scope="row" class="text-left font-normal px-4 py-5">
+                            <p id="total-description-text" class="italic text-purple-200">Total in USD</p>
                         </th>
-                        <td id="total-cost" class="relative font-semibold text-right text-base underline px-4 py-5 w-[1%] text-emerald-500"> $704/month</td>
+                        <td id="total-cost" class="font-bold text-right text-lg px-4 py-5 text-white">$704/month</td>
                     </tr>
                 </tfoot>
             </table>
